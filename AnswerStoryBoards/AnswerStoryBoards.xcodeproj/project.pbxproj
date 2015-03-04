@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E4B616EE1AA7494D008B45B8 /* NSString+ReverseString.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B616ED1AA7494D008B45B8 /* NSString+ReverseString.m */; };
 		E4B9D0A41A826DDF0059DE0D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B9D0A31A826DDF0059DE0D /* main.m */; };
 		E4B9D0A71A826DDF0059DE0D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B9D0A61A826DDF0059DE0D /* AppDelegate.m */; };
 		E4B9D0AA1A826DDF0059DE0D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B9D0A91A826DDF0059DE0D /* ViewController.m */; };
@@ -29,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E4B616EC1AA7494D008B45B8 /* NSString+ReverseString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ReverseString.h"; sourceTree = "<group>"; };
+		E4B616ED1AA7494D008B45B8 /* NSString+ReverseString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ReverseString.m"; sourceTree = "<group>"; };
 		E4B9D09E1A826DDF0059DE0D /* AnswerStoryBoards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnswerStoryBoards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4B9D0A21A826DDF0059DE0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4B9D0A31A826DDF0059DE0D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -139,6 +142,8 @@
 				E4B9D0AB1A826DDF0059DE0D /* Main.storyboard */,
 				E4B9D0A81A826DDF0059DE0D /* ViewController.h */,
 				E4B9D0A91A826DDF0059DE0D /* ViewController.m */,
+				E4B616EC1AA7494D008B45B8 /* NSString+ReverseString.h */,
+				E4B616ED1AA7494D008B45B8 /* NSString+ReverseString.m */,
 			);
 			name = MainStory;
 			sourceTree = "<group>";
@@ -246,6 +251,7 @@
 			files = (
 				E4B9D0AA1A826DDF0059DE0D /* ViewController.m in Sources */,
 				E4B9D0A71A826DDF0059DE0D /* AppDelegate.m in Sources */,
+				E4B616EE1AA7494D008B45B8 /* NSString+ReverseString.m in Sources */,
 				E4B9D0A41A826DDF0059DE0D /* main.m in Sources */,
 				E4B9D0CF1A8274B40059DE0D /* SecondPartViewController.m in Sources */,
 			);
@@ -438,6 +444,7 @@
 				E4B9D0C31A826DDF0059DE0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E4B9D0C41A826DDF0059DE0D /* Build configuration list for PBXNativeTarget "AnswerStoryBoardsTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +453,7 @@
 				E4B9D0C61A826DDF0059DE0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

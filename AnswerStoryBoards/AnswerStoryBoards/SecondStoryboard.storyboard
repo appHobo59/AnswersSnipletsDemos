@@ -30,10 +30,9 @@
                                     <action selector="returnToMain:" destination="8o1-vX-Vmz" eventType="touchUpInside" id="3oV-c1-krB"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fpp-v7-P4e">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Transitions between storyboards to &quot;Second Story&quot; shows NSString category that  reverses the original string." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fpp-v7-P4e">
                                 <rect key="frame" x="54" y="136" width="212" height="187"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Transitions between storyboards can be simple has shown or more custom/complex.  The goal is to provide smooth transitions that enhance the UX.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -41,6 +40,9 @@
                         </subviews>
                         <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="mirrorImageLabel" destination="fdQ-1t-xOj" id="FQo-1r-ui3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KYk-gZ-rGq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

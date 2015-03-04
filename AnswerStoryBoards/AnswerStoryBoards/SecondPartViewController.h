@@ -13,5 +13,6 @@
 
 - (IBAction)returnToMain:(id)sender;
 
+@property (weak, nonatomic) IBOutlet UILabel *mirrorImageLabel;
 
 @end

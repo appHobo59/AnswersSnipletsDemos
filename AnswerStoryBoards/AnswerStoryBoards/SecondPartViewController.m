@@ -7,6 +7,7 @@
 //
 
 #import "SecondPartViewController.h"
+#import "NSString+ReverseString.h"
 
 @interface SecondPartViewController ()
 
@@ -17,6 +18,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    NSString *newLabelText = _mirrorImageLabel.text;
+    /*!
+     * @brief This calls the NSString category to 
+     * reverse the string for a mirror image look
+     */
+    _mirrorImageLabel.text = [newLabelText reverseString:newLabelText];
+    
 }
 
 - (void)didReceiveMemoryWarning {
