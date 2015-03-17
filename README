@@ -1,9 +1,43 @@
-This repo contains simple answers to complex solutions in iOS 8 app 
-development using Objective-C and Swift coding samples.
+This repo contains answers to coding questions and code solution demos written for 
+iOS 8 app using Objective-C and Swift.
 
-There are many ways to solve app develop challenges.
 
-As of February 4, 2015, the initial commit is an Objective-C solution that 
-demos the use of multiple storyboards.
+AnswerStoryBoards is an Objective-C solution that 
+demos the use of multiple storyboards.  This demo includes ReverseString 
+category which is used to create a mirror image in second storyboard viewcontroller. 
+This demo includes Objective-C console log solution to Jeff Atwood's FizzBuzz, 
+http://blog.codinghorror.com/why-cant-programmers-program/
 
+Atwood's question:  [Write a program that prints the numbers from 1 to 100. 
+But for multiples of three print "Fizz" instead of the number and for the multiples of 
+five print "Buzz". For numbers which are multiples of both three 
+and five print "FizzBuzz".]
+
+My two-minute Objective-C Solution:  
+
+int i;
+    for (i=1; i<= 100; i++) {
+        
+        if (i % 3*5 == 0){
+            NSLog(@"FizzBuzz\n");
+        }else if (i % 5 == 0){
+            NSLog(@"Buzz\n");
+        }else if (i % 3 == 0){
+            NSLog (@"Fizz\n");
+        } //Default
+        
+        NSLog(@"%i\n",i);
+        
+    }
+
+App can be run in simulator. Look at debug console for NSLogs.
+
+Swift iOS 8 demo app called "Sepia Tones" which makes calls to Flickr API;
+uses UICollectionView; KVO to display UIActivityIndicatorView which spins 
+when the photo loads [does not stop spinning]; offers default search value for 
+"black and white photos"; enter any search value and all returned photos 
+will be Sepia toned; Use cmd+k to show the keyboard in simulator;  The search button on 
+the keyboard is disabled; Use Search button on the navigation bar.
+
+Must enter a Flickr API key in FlickrPhotos.swift to run the app in simulator.
 

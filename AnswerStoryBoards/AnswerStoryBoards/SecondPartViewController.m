@@ -25,6 +25,26 @@
      */
     _mirrorImageLabel.text = [newLabelText reverseString:newLabelText];
     
+    /*! 
+     * @brief This shows an NSLog console solution to Jeff Atwood's FizzBuzz
+     * Simple solution took approximately 2 minutes
+     */
+    int i;
+    for (i=1; i<= 100; i++) {
+        
+        if (i % 3*5 == 0){
+            NSLog(@"FizzBuzz\n");
+        }else if (i % 5 == 0){
+            NSLog(@"Buzz\n");
+        }else if (i % 3 == 0){
+            NSLog (@"Fizz\n");
+        } //Default
+        
+        NSLog(@"%i\n",i);
+        
+    }
+
+    
 }
 
 - (void)didReceiveMemoryWarning {
