@@ -40,12 +40,18 @@
             NSLog (@"Fizz\n");
         } //Default
         
-        NSLog(@"%i\n",i);
+       //This would create and error NSLog(@"%i\n",i);
         
     }
 
+
+    
     
 }
+
+
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
