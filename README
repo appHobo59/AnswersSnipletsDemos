@@ -18,3 +18,7 @@ Must enter a Flickr API key in FlickrPhotos.swift to run the app in simulator.
 
 WordPartsProtocolDemo written in Swift iOS 8 demo of Generic that is
  constrained by Protocol.
+ 
+ Swift playground added to show Big-O notation difference between iterative code solution
+ for fibonacci numbers and recursive solution for Fibonacci numbers.  The recursive 
+ solution is O(n^2) run time in Big O which is inefficient.
